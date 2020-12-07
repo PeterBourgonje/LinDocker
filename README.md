@@ -1,3 +1,3 @@
 # LinDocker
 
-sudo instructions
+docker instructions
