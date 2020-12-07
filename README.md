@@ -1,6 +1,8 @@
 # LinDocker
 
-Dockerised version of https://github.com/WING-NUS/pdtb-parser 
+Dockerised version of https://github.com/WING-NUS/pdtb-parser, which is in turn based on
+
+Ziheng Lin, Hwee Tou Ng and Min-Yen Kan (2014). A PDTB-Styled End-to-End Discourse Parser. Natural Language Engineering, 20, pp 151-184. Cambridge University Press.
 
 ## Usage
 - Clone this repository (`git clone https://github.com/PeterBourgonje/GermanShallowDiscourseParser`)
