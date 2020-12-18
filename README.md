@@ -5,7 +5,7 @@ Dockerised version of https://github.com/WING-NUS/pdtb-parser, which is in turn 
 Ziheng Lin, Hwee Tou Ng and Min-Yen Kan (2014). A PDTB-Styled End-to-End Discourse Parser. Natural Language Engineering, 20, pp 151-184. Cambridge University Press.
 
 ## Usage
-- Clone this repository (`git clone https://github.com/PeterBourgonje/GermanShallowDiscourseParser`)
+- Clone this repository (`git clone https://github.com/PeterBourgonje/LinDocker`)
 - `cd` into the cloned folder, then build the Docker container (`docker build -t lindocker .`), where `lindocker` is the container name, i.e. can be anything you want, as long as it matches this when running the container.
 - After a successful build, start the container (`sudo docker run -p5500:5000 -it lindocker`). This exposes a `parse` endpoint on the specified port.
 - The following curl command parses the input file located at `<path/to/local/file.txt>`, and writes the output to `<output.json>`: `curl -X POST -F input=@<path/to/local/file.txt> localhost:5500/parse -o <output.json>`.
